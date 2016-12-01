@@ -1,0 +1,114 @@
+
+iki/bin/view/Main/CVS2GitMigration
+--encoding=cp1252
+ Dump the CVS repository
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LOXON
+
+---------
+
+mkdir C:\Users\xml550\Documents\SW\cvs2gitSandbox\loxon.cl
+
+python C:\Tools\cvs2svn\cvs2git --blobfile=cvs2svn-tmp\git-blob.dat --dumpfile=cvs2svn-tmp\git-dump.dat --username=xml550 C:\Users\xml550\Documents\SW\cvs2gitSandbox\loxon.cl --encoding=cp1252
+
+
+mkdir loxon.cl
+cd loxon.cl
+git init
+ 
+git fast-import --export-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\loxo.cl\git-blob.dat
+git fast-import --import-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\loxo.cl\git-dump.dat
+
+git clone C:\Users\xml550\Documents\SW\LADGit\loxon.cl
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+MINWAX.CL
+
+---------
+mkdir C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\minwax.cl
+
+
+python C:\Tools\cvs2svn\cvs2git --blobfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\minwax.cl\git-blob.dat --dumpfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\minwax.cl\git-dump.dat --username=xml550 C:\Users\xml550\Documents\SW\cvs2gitSandbox\minwax.cl --encoding=cp1252
+ 
+
+mkdir minwax.cl
+cd minwax.cl
+git init
+
+git fast-import --export-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\minwax.cl\git-blob.dat
+git fast-import --import-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\minwax.cl\git-dump.dat
+
+
+git clone C:\Users\xml550\Documents\SW\LADGit\minwax.cl
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+sherwin-williams.com.br
+
+---------
+mkdir C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin-williams.com.br
+
+python C:\Tools\cvs2svn\cvs2git --blobfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin-williams.com.br\git-blob.dat --dumpfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin-williams.com.br\git-dump.dat --username=xml550 C:\Users\xml550\Documents\SW\cvs2gitSandbox\sherwin-williams.com.br --encoding=cp1252
+ 
+
+mkdir sherwin-williams.com.br
+cd sherwin-williams.com.br
+git init
+
+git fast-import --export-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin-williams.com.br\git-blob.dat
+git fast-import --import-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin-williams.com.br\git-dump.dat
+
+
+git clone C:\Users\xml550\Documents\SW\LADGit\sherwin-williams.com.br
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sherwin.cl
+
+---------
+mkdir C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.cl
+
+python C:\Tools\cvs2svn\cvs2git --blobfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.cl\git-blob.dat --dumpfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.cl\git-dump.dat --username=xml550 C:\Users\xml550\Documents\SW\cvs2gitSandbox\sherwin.cl --encoding=cp1252
+ 
+
+mkdir sherwin.cl
+cd sherwin.cl
+git init
+
+git fast-import --export-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.cl\git-blob.dat
+git fast-import --import-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.cl\git-dump.dat
+
+
+git clone C:\Users\xml550\Documents\SW\LADGit\sherwin.cl
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sherwin.com.ar
+
+---------
+mkdir C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.com.ar
+
+python C:\Tools\cvs2svn\cvs2git --blobfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.com.ar\git-blob.dat --dumpfile=C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.com.ar\git-dump.dat --username=xml550 C:\Users\xml550\Documents\SW\cvs2gitSandbox\sherwin.com.ar --encoding=cp1252
+ 
+
+mkdir sherwin.com.ar
+cd sherwin.com.ar
+git init
+
+git fast-import --export-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.com.ar\git-blob.dat
+git fast-import --import-marks=C:\Users\xml550\Documents\SW\LADGit\git-marks.dat < C:\Users\xml550\Documents\SW\Bkupsgeneratedcvs\sherwin.com.ar\git-dump.dat
+
+
+git clone C:\Users\xml550\Documents\SW\LADGit\sherwin.cl
+
+
